@@ -3,6 +3,7 @@ import Hero from "./Hero"
 import Companies from "./Companies";
 import Courses from "./Courses";
 import Achivement from "./Achivement";
+import Categories from "./Categories";
 
 
-export {Navbar,Hero,Companies,Courses,Achivement}
+export {Navbar,Hero,Companies,Courses,Achivement,Categories}
