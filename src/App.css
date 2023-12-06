@@ -1,5 +1,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,900&display=swap');
+
+
 #root{
     font-family: 'Public Sans', sans-serif; 
+}
+
+.slick-next::before ,.slick-prev::before{
+color: black;
+font-size: 40px;
+}
+
+.slick-next::before{
+    margin-left:-35px ;
+}
+.slick-prev{
+    z-index: 999;
+}
+.slick-prev::before{
+
 }
