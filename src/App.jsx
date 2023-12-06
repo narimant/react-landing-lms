@@ -1,5 +1,5 @@
 
-import { Achivement, Categories, Companies, Courses, Hero, Navbar } from './components';
+import { Achivement, Categories, Companies, Courses, Cta, Feedback, Footer, Hero, Navbar } from './components';
 import './App.css'
 const App = () => {
   return (
@@ -10,6 +10,9 @@ const App = () => {
       <Courses />
       <Achivement />
       <Categories />
+      <Feedback />
+      <Cta />
+      <Footer />
     </div>
   );
 };
