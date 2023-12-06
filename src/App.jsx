@@ -1,5 +1,5 @@
 
-import { Companies, Courses, Hero, Navbar } from './components';
+import { Achivement, Companies, Courses, Hero, Navbar } from './components';
 import './App.css'
 const App = () => {
   return (
@@ -8,6 +8,7 @@ const App = () => {
       <Hero />
       <Companies />
       <Courses />
+      <Achivement />
     </div>
   );
 };
